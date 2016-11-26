@@ -1,0 +1,430 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Krona+One);
+@import url(https://fonts.googleapis.com/css?family=Syncopate:700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,600,900);
+
+.no-max {
+  max-width: 100%;
+}
+
+.no-max.pad {
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+  padding: auto;
+}
+
+.content-pad {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  /*background-color: #d0d0d0;*/
+  background-color: #ddd;
+}
+
+body.home {
+  background-image: url(../img/greysky4.png);
+  background-color: #d0d0d0;
+}
+
+.outlinedsection {
+  padding: 10px 20px ;
+  border-radius: 5px ;
+  text-decoration: none ;
+  color: #fff ;
+  position: relative ;
+  border: 2px solid #000 ;
+  margin: 10%;
+  padding:2.5%;
+}
+
+.outlinedsection:after{
+    content: '' ;
+    display: block ;
+    position: absolute ;
+    top: 0 ;
+    bottom: 0 ;
+    left: 0 ;
+    right: 0 ;
+    border-radius: 5px ;
+    border: 2px solid #ccc ;
+}
+
+.columns {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.secondary {
+  display: block;
+  margin:auto;
+}
+
+.primary {
+  padding-top: 17%;
+  display: block;
+  clear:both;
+  width: 92%;
+  padding-bottom: 13%
+  /*text-align: center;*/
+}
+
+
+#jessie {
+  padding-top: 17%;
+  font-size: 6.250em;
+  letter-spacing: .05;
+}
+
+#irgens {
+  font-size: 6.250em;
+  letter-spacing: .02;
+}
+
+.jessieirgens h1 {
+  font-family: 'Oswald', sans-serif;
+  /*display: block;*/
+  line-height: 94.5%;
+  color:#00CDCD;
+  /*text-shadow:1px 1px 0px #3d768a;*/
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.jessieirgens h1:hover {
+  color: #EC3B83;
+}
+
+#front-end {
+  padding-top: 3%;
+  /*font-family: 'Krona One', sans-serif;*/
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #EC3B83;
+  /*text-shadow:1px 1px 0px #3d768a;*/
+}
+
+#front-end:hover {
+  color:#00CDCD;
+}
+
+#developer {
+  font-size: 40px;
+  letter-spacing: 0.14em;
+  color:#00CDCD;
+  font-weight: 900;
+
+
+  /*text-shadow:1px 1px 0px #3d768a;*/
+}
+
+#developer:hover {
+  color: #EC3B83;
+}
+
+.frontenddev {
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 9px rgba(0,0,0,0.1),
+               0px 11px 11px rgba(0,0,0,0.1);
+}
+
+
+
+.bigbutton {
+  /*margin: 6%;*/
+	background-color:#00CDCD;
+	-moz-border-radius:8px;
+	-webkit-border-radius:11px;
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 4%;
+	display:block;
+	cursor:pointer;
+	/*color:#ffffff;*/
+  color: #EC3B83;
+	/*font-family: 'Syncopate', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+	font-size: 1.7em;
+	font-weight: 600;
+  letter-spacing: 0.04em;
+	text-decoration:none;
+  padding: 17px;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.4),
+               0px 2px 6px rgba(0,0,0,0.1),
+               0px 2px 6px rgba(0,0,0,0.1);
+  /*1px 1px 3px #393c3c;*/
+  text-shadow: 0px 2px 3px rgba(0,0,0,0.4),
+               0px 2px 6px rgba(0,0,0,0.1),
+               0px 2px 6px rgba(0,0,0,0.1);
+}
+
+/*.bigbutton #bottom {
+  margin-bottom: 6%;
+}*/
+
+.bigbutton a {
+  color: #EC3B83;
+}
+.bigbutton:hover {
+	background-color:#777e7e;
+}
+
+.bigbutton a:hover {
+  color:#00CDCD;
+}
+
+.bigbutton:active {
+	position:relative;
+	top:1px;
+}
+
+      /*LOGO AREA*/
+
+.nav {
+  padding-top: 1%;
+}
+
+.nav ul {
+  /*float:r ight;*/
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  /*font-family: 'Oswald', sans-serif;*/
+  /*font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;*/
+  /*border-bottom: 1px solid #888;*/
+}
+
+.nav li.crosses {
+  font-family: 'Slabo 27px', serif;
+  font-size: 4.2em;
+  color: #000;
+}
+
+.nav a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  /*color: #000;*/
+  color:#00CDCD;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  text-shadow: 1px 1px 1px #3d768a;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  color: #EC3B83;
+  text-shadow:1px 1px 1px #3d768a;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav li {
+   display: inline-block;
+   margin-right: -4px;
+ }
+}
+
+/*body {
+  font-size: 62.5%;
+  letter-spacing: 0.025em;
+}
+
+body, h6 {
+  font-family: "Asap", sans-serif !important;
+  line-height: 1.15em;
+}*/
+
+/*h1, h2, h3 {
+  font-weight: 700;
+}*/
+
+
+
+/* SOCIAL MEDIA STYLES */
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-links li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.social-links .icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-background-size: 20px 20px !important;
+  -moz-background-size: 20px 20px !important;
+  -o-background-size: 20px 20px !important;
+  background-size: 20px 20px !important;
+  overflow: hidden;
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+}
+.social-links .icon:hover {
+  opacity: 0.7;
+  -webkit-transition: opacity 200ms ease-in-out;
+  -moz-transition: opacity 200ms ease-in-out;
+  -o-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+.social-links .icon.icon-twitter {
+  background: url(../img/icon-twitter.png?1398715010) no-repeat 0 0;
+}
+.social-links .icon.icon-facebook {
+  background: url(../img/icon-facebook.png?1398714906) no-repeat 0 0;
+}
+.social-links .icon.icon-google {
+  background: url(../img/icon-google.png?1398714980) no-repeat 0 0;
+}
+.social-links .icon.icon-tumblr {
+  background: url(../img/icon-tumblr.png?1398715559) no-repeat 0 0;
+}
+.social-links .icon.icon-vimeo {
+  background: url(../img/icon-vimeo.png?1398715539) no-repeat 0 0;
+}
+.social-links .icon.icon-youtube {
+  background: url(../img/icon-youtube.png?1398715038) no-repeat 0 0;
+}
+.social-links .icon.icon-linkedin {
+  background: url(../img/icon-linkedin.png?1398715654) no-repeat 0 0;
+}
+.social-links .icon.icon-email {
+  background: url(../img/icon-email.png?1398715679) no-repeat 0 0;
+}
+.social-links .icon.icon-flickr {
+  background: url(../img/icon-flickr.png?1398714947) no-repeat 0 0;
+}
+.social-links .icon.icon-github {
+  background: url(../img/icon-octocat.png?1398715632) no-repeat 0 0;
+}
+
+/*******************************************************
+******************************************************
+        PORTFOLIO PAGE
+******************************************************        */
+
+ /********** ANIMATED HEADER **********/
+/*
+row .heading {
+  width: %;
+}*/
+
+.bgClip {
+  max-width: 100%;
+  background:url('../img/treesanimated.png');
+  background-repeat:repeat-x;
+  background-position:0 0;
+  /*font-size:200px;*/
+  font-size:13em;
+  text-transform:uppercase;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color:transparent;
+  -webkit-font-smoothing:antialiased;
+  -webkit-background-clip:text;
+  -moz-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  margin: 0;
+
+
+  -webkit-animation:BackgroundAnimated 40s linear infinite;
+      -moz-animation:BackgroundAnimated 40s linear infinite;
+      -ms-animation:BackgroundAnimated 40s linear infinite;
+      -o-animation:BackgroundAnimated 40s linear infinite;
+      animation:BackgroundAnimated 40s linear infinite;
+  }
+      @keyframes BackgroundAnimated {
+      from {
+          background-position:0 0
+      }
+      to {
+          background-position:100% 0
+      }
+  }
+      @-webkit-keyframes BackgroundAnimated {
+      from {
+          background-position:0 0
+      }
+      to {
+          background-position:100% 0
+      }
+  }
+      @-ms-keyframes BackgroundAnimated {<     from {
+          background-position:0 0
+      }
+      to {
+          background-position:100% 0
+      }
+  }
+      @-moz-keyframes BackgroundAnimated {
+      from {
+          background-position:0 0
+      }
+      to {
+          background-position:100% 0
+      }
+  }
+}
+
+ /******** PORTFOLIO ROWS **********/
+
+/*#casey {
+  padding: 4%;
+}*/
+
+
+/*row #casey {
+  border-width: thin;
+  border-radius: 20px;
+  margin: auto;
+}*/
